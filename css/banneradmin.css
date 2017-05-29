@@ -1,0 +1,149 @@
+.footer{    width: 90%;    max-width: 1500px;    border: 4px solid rgb(240, 240, 240);
+  background: rgb(245, 245, 245);
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  margin: auto;    margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;}.divfoot{
+margin-top: 10px;
+width: 100%
+}
+
+.footmerp{    justify-content: flex-end;
+  margin-right: 30px;
+  font-size: 10px;    display: flex;    color: rgb(190, 190, 190);}
+
+.footliz{
+width: 100%;
+margin-left: 20px;
+font-size: 10px;
+color: rgb(150, 150, 195);
+}
+
+
+.bannergen1{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.genetitu{
+  width: 48%;;
+}
+
+.genetitu1{
+  width: 48%;
+  margin-left: 7px;
+}
+
+.inputbanner{
+
+  margin-bottom: 7px;
+}
+
+.genebtn{
+  width: 100%;
+ margin-left: 35%;
+}
+
+
+#visor{
+    margin: auto;
+    margin-bottom: 9px;
+    margin-top: 6px;
+}
+
+.btn_enviar{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:100%;
+	height:100%;
+	opacity: 0;
+}
+
+.thumb {
+     height: 60%;
+     width: 95%;
+     margin-left: 7px;
+     border: 1px solid #000;
+     margin-bottom: 5px;
+     text-align: center;
+}
+
+p#texto{
+	text-align: center;
+	color:white;
+}
+
+div#div_file{
+	position:relative;
+	margin:auto;
+	margin-bottom: 10px;
+    border-radius: 5px;
+	width:80px;
+	background: rgb(0,132,255);
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 3px 0px #1a71a9;
+}
+
+
+.genebtn{
+  width: 90%;
+  margin-left: 30%;
+  margin-top: 10px;
+
+}
+
+
+.btn-enviar{
+    background: rgb(18,152,9);
+    max-width: 300px;
+    color: #fff;
+    right: 3px;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 20px;
+    -webkit-border-radius:5px;
+  	-webkit-box-shadow:0px 3px 0px;
+}
+
+.btn-enviar:hover{
+    color: rgb(18,152,9);
+    background-color: #fff;
+    -webkit-border-radius:5px;
+  	-webkit-box-shadow:0px 3px 0px;
+  }
+
+.btn-enviar:active{
+    transform: scale(0.95);
+  }
+
+.btnborrar{
+    background: red;
+    max-width: 300px;
+    color: #fff;
+    right: 3px;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 20px
+    -webkit-border-radius:5px;
+  	-webkit-box-shadow:0px 3px 0px;
+}
+
+.btnborrar:hover{
+    color: red;
+    background-color: #fff;
+    -webkit-border-radius:5px;
+  	-webkit-box-shadow:0px 3px 0px;
+  }
+
+.btnborrar:active{
+    transform: scale(0.95);
+  }
