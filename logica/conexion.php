@@ -1,11 +1,16 @@
 <?php
 
-
+/*
     $server="localhost";
   	$username="root";
   	$password="geraldine2016";
   	$db='lizsalon';
+*/
 
+$server="sql307.byetcluster.com";
+$username="eshos_19299603";
+$password="geraldin";
+$db='eshos_19299603_lizsalon';
 
     $conexion=mysqli_connect($server,$username,$password,$db) or die
      ('Error al conectar con la base de datos');
@@ -17,8 +22,8 @@
     @mysql_set_charset("utf8", $con);
 
 
-    $conexcitas=mysql_connect("sql104.byetcluster.com","eshos_18419746","geraldin");
-    $baseDeDatos=mysql_select_db("eshos_18419746_lizsalon",$conexcitas);
+    $conexcitas=mysql_connect($server,$username,$password);
+    $baseDeDatos=mysql_select_db($db,$conexcitas);
     @mysql_set_charset("utf8", $conexcitas);
 
 ?>
